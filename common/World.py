@@ -80,3 +80,4 @@ class GridWorld:
         renderer = render_helper.Renderer(self.reward_map, self.goal_state,
                                           self.wall_state)
         renderer.render_q(q, print_value)
+
